@@ -8,11 +8,12 @@ Additionally, a Monte Carlo method is used for estimating π.
 ## Team Members
 - Selen Varkara- 2311021017
 - İremnaz Aytekin – 2311021042
-- Begüm Rana Türkoğlu – Student ID
+- Begüm Rana Türkoğlu – 2311021001
 - Eylül Sena Altunsaray – Student ID
 
 ## Programming Language
 MATLAB is used for all simulations in this project.
 
 ## Project Structure
+
 
