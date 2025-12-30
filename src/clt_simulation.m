@@ -50,4 +50,7 @@ for i = 1:length(n_values)
     title(['n = ', num2str(n)])
 end
 
-sgtitle('CLT: Normal Q-Q Plo
+sgtitle('CLT: Normal Q-Q Plo')
+
+% Save QQ plot figure
+saveas(gcf, '../results/figures/clt_qqplots.png')
