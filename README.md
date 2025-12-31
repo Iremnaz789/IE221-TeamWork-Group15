@@ -32,13 +32,13 @@ To run the project:
 
 1. Make sure MATLAB (R2021a or later recommended) is installed.
 2. Clone the repository:
-   ```bash
-   git clone https://github.com/Iremnaz789/IE221-TeamWork-Group15
+  ```bash
+git clone https://github.com/Iremnaz789/IE221-TeamWork-Group15
 
 3. Open MATLAB and set the project root folder as the current working directory.
 
 
-Usage
+## Usage
 
 Each task can be run independently from the src/ directory.
 
@@ -61,7 +61,7 @@ All generated figures are automatically saved in the following directory:
 results/figures/
 
 
-Project Structure
+## Project Structure
 IE221-TeamWork-GroupXX/
 │
 ├── src/                    # MATLAB source code files
@@ -84,13 +84,14 @@ IE221-TeamWork-GroupXX/
 ├── README.md               # Project description and instructions
 └── .gitignore              # Files to ignore
 
-Notes
+## Notes
 
 All simulations use independent and identically distributed samples from the Uniform(0,1) distribution.
 
 Figures are clearly labeled and saved in PNG format.
 
 The results visually demonstrate almost sure convergence (SLLN) and convergence in distribution (CLT).
+
 
 
 
