@@ -32,8 +32,9 @@ To run the project:
 
 1. Make sure MATLAB (R2021a or later recommended) is installed.
 2. Clone the repository:
-  ```bash
-git clone https://github.com/Iremnaz789/IE221-TeamWork-Group15
+    ```bash
+
+   git clone https://github.com/Iremnaz789/IE221-TeamWork-Group15
 
 3. Open MATLAB and set the project root folder as the current working directory.
 
@@ -91,6 +92,7 @@ All simulations use independent and identically distributed samples from the Uni
 Figures are clearly labeled and saved in PNG format.
 
 The results visually demonstrate almost sure convergence (SLLN) and convergence in distribution (CLT).
+
 
 
 
