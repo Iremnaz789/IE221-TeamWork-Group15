@@ -533,20 +533,6 @@ disp(['Mean: ' num2str(sample_mean)])
 - **Modifications:** To change simulation parameters, edit the corresponding variables at the beginning of each script (clearly marked with comments).
 
 
----
-
-## References and Further Reading
-
-### Course Materials
-- IE221 Probability Course Lecture Notes
-- Team Work 1-3 previous assignments
-- Full technical report: `reports/TW4_Report.pdf`
-
-### Recommended Resources
-- **SLLN:** Durrett, R. (2019). *Probability: Theory and Examples*. Cambridge University Press.
-- **CLT:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury.
-- **Monte Carlo Methods:** Robert, C. P., & Casella, G. (2004). *Monte Carlo Statistical Methods*. Springer.
-- **MATLAB Documentation:** [https://www.mathworks.com/help/matlab/](https://www.mathworks.com/help/matlab/)
 
 ---
 
@@ -579,3 +565,4 @@ For questions or issues related to this project, please contact any team member:
 5. Read `reports/TW4_Report.pdf` for detailed analysis
 
 **That's it! 🎉**
+
