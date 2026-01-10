@@ -31,8 +31,11 @@ All simulations in this project are implemented using **MATLAB**.
 
 ## Installation
 
-No additional libraries are required beyond standard MATLAB functionality.
-
+## Dependencies
+- MATLAB R2021a or later
+- No additional toolboxes required
+- Core MATLAB functionality only
+  
 To run the project:
 
 1. Make sure MATLAB (R2021a or later recommended) is installed.
@@ -134,6 +137,7 @@ These parameters can be modified directly in the MATLAB source files.
 - All simulations use independent and identically distributed samples.
 - Figures are clearly labeled and saved in PNG format.
 - Results demonstrate almost sure convergence (SLLN) and convergence in distribution (CLT).
+
 
 
 
