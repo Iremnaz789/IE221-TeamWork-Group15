@@ -451,74 +451,17 @@ For complete mathematical derivations and detailed analysis, see `reports/TW4_Re
 
 ## Troubleshooting
 
-### Common Issues and Solutions
+### Common Issues
 
-#### Issue 1: "Undefined function or variable"
-**Cause:** Not in the correct directory or file path issues
+**Issue:** "Undefined function or variable"  
+**Solution:** Ensure you're in the project root directory and use `run('src/scriptname.m')`
 
-**Solution:**
-```matlab
-% Make sure you're in the project root directory
-cd path/to/IE221-TeamWork-Group15
+**Issue:** Figures not saving  
+**Solution:** Check if `results/figures/` directory exists and MATLAB has write permissions
 
-% Use run() with full path
-run('src/slln_simulation.m')
-```
+**Issue:** Out of memory error  
+**Solution:** Reduce simulation parameters (sample sizes or replications) in the source files
 
----
-
-#### Issue 2: Figures not saving
-**Cause:** Directory doesn't exist or permission issues
-
-**Solution:**
-```matlab
-% Create the directory manually
-mkdir('results/figures')
-
-% Check MATLAB write permissions
-fileattrib('results/figures')
-```
-
----
-
-#### Issue 3: "Out of memory" error
-**Cause:** Simulation parameters too large for available RAM
-
-**Solution:**
-- Reduce sample sizes in the scripts
-- For SLLN: Reduce `n` from 10,000 to 5,000
-- For CLT: Reduce replications from 1,000 to 500
-- For Monte Carlo: Reduce points from 100,000 to 50,000
-
----
-
-#### Issue 4: Plots look different from expected
-**Cause:** Random seed not set or different MATLAB version
-
-**Solution:**
-```matlab
-% Ensure random seed is set in each script
-rng(42);  % Or any fixed number
-
-% Or comment out rng() for truly random results
-```
-
----
-
-#### Issue 5: Scripts run but no output displayed
-**Cause:** Semicolons suppressing output or figures not showing
-
-**Solution:**
-```matlab
-% Make sure figure commands don't have semicolons
-figure; % Correct
-% figure; % This suppresses the figure
-
-% Force display of specific values
-disp(['Mean: ' num2str(sample_mean)])
-```
-
----
 
 ## Notes and Best Practices
 
@@ -565,4 +508,5 @@ For questions or issues related to this project, please contact any team member:
 5. Read `reports/TW4_Report.pdf` for detailed analysis
 
 **That's it! 🎉**
+
 
