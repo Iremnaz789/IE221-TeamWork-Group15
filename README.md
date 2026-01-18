@@ -153,8 +153,20 @@ For questions or issues related to this project, please contact any team member:
 **Institution:** Abdullah Gül University  
 **Semester:** Fall 2024–2025
 
+### Begum – Uniform(0,1) Results
+
+**Strong Law of Large Numbers (SLLN):**
+- Cumulative sample mean convergence to 0.5  
+  (`results/figures/slln_uniform.png`)
+
+**Central Limit Theorem (CLT):**
+- Histogram of standardized sums (n = 2)  
+  (`results/figures/clt_hist_n2.png`)
+- Q–Q plot against standard normal (n = 2)  
+  (`results/figures/clt_qq_n2.png`)
 
 ---
+
 
 
 
